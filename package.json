@@ -1,0 +1,15 @@
+{
+  "name": "coz-nodejs1",
+  "version": "0.0.0",
+  "description": "Node.js for C# by coz",
+  "main": "index.js",
+  "scripts": {
+    "test": "jasmine"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jcoz1968"
+  },
+  "author": "Coz <jcoz1968@gmail.com>",
+  "license": "MIT"
+}

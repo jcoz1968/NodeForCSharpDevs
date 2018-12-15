@@ -11,6 +11,7 @@ export class UsersRouter {
         }
 
         this.config = config;
+        // this.userService = config.getService('UserService');
         this.userService = config.getUserService();
         if(!this.userService) throw Error("UserService not found");
     }

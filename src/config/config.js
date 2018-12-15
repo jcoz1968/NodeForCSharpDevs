@@ -6,7 +6,7 @@ export class Config {
     }
 
     getUserService() {
-        this.getService('UserService');
+        return this.getService('UserService');
     }
 
     getService(key) {

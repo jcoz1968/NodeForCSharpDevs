@@ -5,7 +5,14 @@ export class Config {
         return this;
     }
 
+    getUserService() {
+        this.getService('UserService');
+    }
+
     getService(key) {
+        if(!this[key]) {
+            return null;
+        }
         return new this[key]();
     }
 

@@ -10,6 +10,13 @@
             "name": "Launch Program",
             "program": "${workspaceFolder}\\src\\index.js",
             "outFiles": [ "${workspaceFolder}/.compiled/**/*.js" ]
-        }
+        },
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Server",
+            "program": "${workspaceFolder}\\src\\server.js",
+            "outFiles": [ "${workspaceFolder}/.compiled/**/*.js" ]
+        }        
     ]
 }

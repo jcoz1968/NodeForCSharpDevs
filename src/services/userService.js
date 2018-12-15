@@ -1,12 +1,9 @@
 export class UserService {
 
-    async getUserAsync() {
+    async getUsersAsync() {
         return new Promise((resolve, reject) => {
-            resolve([
-                { userId: 100 }, 
-                { userId: 101 }
-            ]);
+            resolve([{userId:100}, {userId:101}]);
         });
     }
-    
+
 }

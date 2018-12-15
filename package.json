@@ -11,5 +11,8 @@
     "url": "https://github.com/jcoz1968"
   },
   "author": "Coz <jcoz1968@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0"
+  }
 }
